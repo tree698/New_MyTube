@@ -3,7 +3,7 @@ import userEvent from '@testing-library/user-event';
 import { Route, useLocation } from 'react-router-dom';
 import VideoCard from '../VideoCard';
 import { formatAgo } from '../../util/date';
-import { fakeVidoe as video } from '../../tests/videoData';
+import { fakeVideo as video } from '../../tests/videoData';
 import { withRouter } from '../../tests/utils';
 import renderer from 'react-test-renderer';
 

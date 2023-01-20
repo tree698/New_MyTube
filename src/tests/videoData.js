@@ -1,4 +1,4 @@
-export const fakeVidoe = {
+export const fakeVideo = {
   id: 1,
   snippet: {
     title: 'title',
