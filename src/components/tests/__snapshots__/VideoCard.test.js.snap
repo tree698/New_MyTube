@@ -59,33 +59,3 @@ exports[`VideoCard renders list type correctly 1`] = `
   </div>
 </li>
 `;
-
-exports[`VideoCard renders with list type correctly 1`] = `
-<li
-  className=""
-  onClick={[Function]}
->
-  <img
-    alt="title"
-    className="w-full"
-    src="http://image/"
-  />
-  <div>
-    <p
-      className="font-semibold my-2 line-clamp-2"
-    >
-      title
-    </p>
-    <p
-      className="text-sm opacity-80"
-    >
-      channelTitle
-    </p>
-    <p
-      className="text-sm opacity-80"
-    >
-      just now
-    </p>
-  </div>
-</li>
-`;
