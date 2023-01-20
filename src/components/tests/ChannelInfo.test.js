@@ -17,7 +17,7 @@ describe('ChannelInfo', () => {
     expect(asFragment()).toMatchSnapshot();
   });
 
-  it('renders without image', () => {
+  it('renders without URL', () => {
     renderChannelInfoWithCallback(() => {
       throw new Error('error');
     });
@@ -25,10 +25,11 @@ describe('ChannelInfo', () => {
     expect(screen.queryByRole('img')).toBeNull();
   });
 
-  it('renders with image', async () => {
+  it('renders with URL', async () => {
     renderChannelInfoWithCallback(() => 'url');
 
-    await waitFor(() => expect(screen.getByRole('img')).toBeInTheDocument());
+    // await waitFor(() => expect(screen.getByRole('img')).toBeInTheDocument());
+    await screen.findByRole('img');
   });
 
   function renderChannelInfoWithCallback(callback) {
