@@ -29,4 +29,17 @@
 - [https://new-mytube6989.netlify.app/](https://new-mytube6989.netlify.app/)
 
 ## :tv:&nbsp; 데모
-- 추후 작성
+|**스크린 샷**|
+|:--:|
+|<img width="600" alt="screenshot" src="https://user-images.githubusercontent.com/53497516/213860352-9c6a0807-0623-4348-ab8f-5db4edd3ab74.png">|
+||
+|<img width="600" alt="demo" src="https://user-images.githubusercontent.com/53497516/213860208-9a7f374c-0719-458d-a1f4-48e73b5dffca.gif">|
+||
+|Test Code Coverage|
+|<img width="600" alt="test-code-coverage" src="https://user-images.githubusercontent.com/53497516/213860504-2fd4f3bc-ad4f-4234-bc27-63a3d60735c5.png">|
+||
+|Cypress|
+|<img width="600" alt="cypress" src="https://user-images.githubusercontent.com/53497516/213860940-feb89fa4-0bd4-449e-98d3-e8deb3cf536d.png">|
+
+
+
