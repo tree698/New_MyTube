@@ -9,8 +9,8 @@ export default function VideoDetail() {
   } = useLocation();
   const { title, channelId, channelTitle, description } = video.snippet;
   return (
-    <section className="flex flex-col lg:flex-row">
-      <article className="basis-4/6">
+    <section>
+      <article>
         <iframe
           id="player"
           type="text/html"
@@ -19,6 +19,7 @@ export default function VideoDetail() {
           src={`https://www.youtube.com/embed/${video.id}`}
           allowFullScreen
           title={title}
+          className="rounded-md"
         />
         <div className="p-8">
           <h2 className="text-xl font-bold">{title}</h2>
@@ -26,7 +27,8 @@ export default function VideoDetail() {
           <pre className="whitespace-pre-wrap">{description}</pre>
         </div>
       </article>
-      <section className="basis-2/6">
+      <section>
+        <h1 className="font-medium text-2xl mt-5 mb-5">📺 Related Videos</h1>
         <RelatedVideos id={video.id} />
       </section>
     </section>

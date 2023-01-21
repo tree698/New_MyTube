@@ -8,7 +8,7 @@ exports[`RelatedVideos renders correctly 1`] = `
     >
       <img
         alt="title"
-        class="w-40 mr-2"
+        class="w-40 mr-2 rounded-md"
         src="http://image/"
       />
       <div>
@@ -34,7 +34,7 @@ exports[`RelatedVideos renders correctly 1`] = `
     >
       <img
         alt="title2"
-        class="w-40 mr-2"
+        class="w-40 mr-2 rounded-md"
         src="http://image2/"
       />
       <div>

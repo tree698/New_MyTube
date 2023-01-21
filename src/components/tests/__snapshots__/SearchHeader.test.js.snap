@@ -35,18 +35,18 @@ exports[`SearchHeader renders correctly 1`] = `
     </h1>
   </a>
   <form
-    className="w-full flex justify-center"
+    className="w-full flex justify-center "
     onSubmit={[Function]}
   >
     <input
-      className="w-10/12 p-2 outline-none bg-black text-gray-50"
+      className="w-10/12 p-2 outline-none bg-black text-gray-50 rounded-l-lg"
       onChange={[Function]}
       placeholder="Search..."
       type="text"
       value=""
     />
     <button
-      className="bg-zinc-600 px-4"
+      className="bg-zinc-600 px-4 rounded-r-lg"
     >
       <svg
         fill="currentColor"

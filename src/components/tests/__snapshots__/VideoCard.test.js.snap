@@ -7,7 +7,7 @@ exports[`VideoCard renders grid type correctly 1`] = `
 >
   <img
     alt="title"
-    className="w-full"
+    className="w-full rounded-md"
     src="http://image/"
   />
   <div>
@@ -37,7 +37,7 @@ exports[`VideoCard renders list type correctly 1`] = `
 >
   <img
     alt="title"
-    className="w-40 mr-2"
+    className="w-40 mr-2 rounded-md"
     src="http://image/"
   />
   <div>
