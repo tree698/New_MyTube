@@ -24,6 +24,7 @@
 
 ## :tv:&nbsp; 배포
 - [https://new-mytube698.netlify.app/](https://new-mytube698.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cb33cd0b-4ef6-4be0-9b56-3baf34b4ae42/deploy-status)](https://app.netlify.com/sites/new-mytube698/deploys)
 
 ## :tv:&nbsp; 데모
 - 추후 작성
